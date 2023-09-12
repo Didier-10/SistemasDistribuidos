@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-size: 3rem;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.site-container {
+  background-color: #01587C;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.Counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Counter h1 {
+  font-size: 4rem;
+  margin-right: 20px;
+}
+
+.Counter button {
+  font-size: 2rem;
+  padding: 10px 20px;
+  background-color: #0198AA;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.Counter button:hover {
+  background-color: #01587C;
+}
